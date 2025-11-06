@@ -269,6 +269,6 @@ npm run lint        # Code quality check
 
 **Full-Stack Developer | React + TypeScript + Node.js + PostgreSQL**
 
-*4+ years equivalent experience in modern web development*
+*2+ years equivalent experience in modern web development*
 
 </div>
