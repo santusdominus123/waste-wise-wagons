@@ -4,113 +4,143 @@
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb?logo=react)](https://reactjs.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?logo=supabase)](https://supabase.com/)
-[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?logo=postgresql)](https://www.postgresql.org/)
 
-A production-ready full-stack SaaS application transforming waste management through real-time tracking, gamification, and data-driven insights.
+A production-ready full-stack SaaS application with real-time features, RESTful API integration, and enterprise database architecture.
 
 ---
 
-## 🎯 Overview
+## 💼 Full-Stack Development Expertise
 
-Waste Wise Wagons is a comprehensive waste management platform built with modern enterprise architecture patterns. The system provides intelligent waste collection scheduling, real-time GPS tracking, rewards marketplace, and environmental impact analytics.
+### Frontend Development
+- **HTML5, CSS3, JavaScript (ES6+)** - Modern web standards implementation
+- **React 18.3** - Component-based architecture with hooks and context
+- **TypeScript 5.8** - Strict type safety with advanced generics
+- **Tailwind CSS 3.4** - Utility-first responsive design system
+- **shadcn/ui** - Accessible component library (40+ components)
+- **React Router v6** - Client-side routing with code splitting
+- **Vite** - Next-generation build tool with HMR
 
-### Core Capabilities
+### Backend Development
+- **Node.js/TypeScript** - Server-side JavaScript runtime
+- **Supabase (PostgreSQL)** - Relational database with real-time capabilities
+- **RESTful API Integration** - Type-safe API client with auto-generated types
+- **Authentication & Authorization** - JWT-based auth with RBAC
+- **Real-time Subscriptions** - WebSocket integration for live updates
 
-- **Multi-Role Authentication** - Secure RBAC for Users, Drivers, and Administrators
-- **Real-Time Tracking** - Live GPS monitoring with WebSocket integration
-- **Rewards Engine** - Gamified points system with redemption marketplace
-- **Analytics Dashboard** - Environmental metrics with interactive visualizations
-- **Responsive Design** - Mobile-first architecture with progressive enhancement
+### Database & ORM
+- **PostgreSQL 15** - Advanced relational database features
+- **Type-safe Database Client** - Generated TypeScript types from schema
+- **Row-Level Security (RLS)** - Database-level access control
+- **Database Functions** - Custom PostgreSQL functions for business logic
+- **Migration Management** - Version-controlled schema changes
+
+### API Integration
+- **Supabase REST API** - Full CRUD operations with TypeScript SDK
+- **TanStack Query** - Server state management with caching
+- **Real-time WebSocket** - Live data synchronization
+- **Type-safe API Calls** - End-to-end type safety
+
+### Additional Technical Skills
+- **React Hook Form + Zod** - Type-safe form validation
+- **Context API** - Global state management
+- **Custom Hooks** - Reusable business logic
+- **ESLint** - Code quality enforcement
+- **Git** - Version control with feature branching
 
 ---
 
 ## 🏗️ Technical Architecture
 
 ### Frontend Stack
-
 ```typescript
-React 18.3          // Component-based UI architecture
-TypeScript 5.8      // Type-safe development
-Vite               // Next-generation build tool
-React Router v6    // Client-side routing with code splitting
-TanStack Query     // Server state management & caching
-shadcn/ui          // Accessible component primitives
-Tailwind CSS       // Utility-first styling framework
-Recharts           // Composable charting library
+React 18.3          // Modern component architecture
+TypeScript 5.8      // Static type checking
+Vite               // Build tool & dev server
+React Router v6    // Client-side routing
+TanStack Query     // Server state & caching
+Tailwind CSS       // Utility-first styling
+shadcn/ui          // Component library
+Recharts           // Data visualization
 ```
 
 ### Backend Infrastructure
-
 ```typescript
-Supabase           // PostgreSQL with real-time subscriptions
-Row-Level Security // Database-level authorization
-RESTful APIs       // Auto-generated from schema
-JWT Auth           // Secure token-based authentication
+Node.js 18+        // JavaScript runtime
+Supabase           // Backend-as-a-Service
+PostgreSQL 15      // Relational database
+REST API           // HTTP-based services
+JWT Auth           // Stateless authentication
+WebSocket          // Real-time communication
 ```
 
-### Development Tools
+---
 
-- **ESLint** - Code quality enforcement
-- **React Hook Form + Zod** - Type-safe form validation
-- **Context API** - Lightweight state management
-- **SWC Compiler** - Rust-based fast compilation
+## 📊 Database Schema Design
+
+**8 PostgreSQL Tables:**
+- `profiles` - User management with role-based access
+- `pickup_requests` - Waste collection scheduling
+- `pickup_reviews` - Driver rating system
+- `driver_performance` - Analytics & KPIs
+- `notifications` - Real-time user notifications
+- `rewards` - Gamification marketplace
+- `reward_redemptions` - Transaction management
+- `user_points` - Points tracking system
+- `waste_rates` - Dynamic pricing engine
+
+**Advanced Features:**
+- Foreign key relationships
+- Composite types & enums
+- Custom database functions
+- Row-level security policies
+- Automatic timestamp triggers
 
 ---
 
-## 📐 Architecture Patterns
+## 🔐 Security Implementation
 
-**Component Composition** - Atomic design methodology with reusable primitives
-
-**Custom Hooks** - Business logic extraction for enhanced testability
-
-**Protected Routes** - HOC pattern for role-based access control
-
-**Server State Management** - Optimistic updates with automatic cache invalidation
-
-**Error Boundaries** - Graceful failure handling with fallback UI
+- **JWT Authentication** - Secure token-based auth
+- **Row-Level Security** - Database-level authorization
+- **Role-Based Access Control** - User/Driver/Admin roles
+- **Input Validation** - Zod schema validation
+- **XSS/CSRF Protection** - Security best practices
+- **Environment Variables** - Secure credential management
+- **HTTPS Enforcement** - Encrypted communication
 
 ---
 
-## 💼 Key Features
+## ⚡ Key Features Implemented
 
-### Authentication System
-- Email/password authentication via Supabase Auth
-- Role-based access control (Users, Drivers, Admins)
-- Protected route wrappers with redirect logic
-- Session persistence with automatic token refresh
+### Multi-Role System
+- User dashboard with pickup scheduling
+- Driver dashboard with route management
+- Admin panel with analytics & controls
+- Role-based route protection
 
-### User Dashboard
-- Pickup scheduling with multi-waste type support
-- Real-time collection tracking with ETA calculations
-- Points accumulation and rewards redemption
-- Historical data and analytics
-- Educational resources hub
+### Real-Time Features
+- Live pickup tracking with GPS
+- WebSocket notifications
+- Real-time dashboard updates
+- Auto-refresh data synchronization
 
-### Driver Dashboard
-- Route optimization and assignment management
-- Real-time status updates
-- Collection completion tracking
-- Customer communication interface
+### API Integration Examples
+- Supabase REST API integration
+- Type-safe database operations
+- Real-time subscriptions
+- File upload handling
+- Authentication flows
 
-### Admin Dashboard
-- System-wide analytics and reporting
-- User and driver management
-- Rewards inventory control
+### Data Visualization
+- Interactive charts (Recharts)
 - Environmental impact metrics
+- Performance analytics
+- Driver KPI dashboards
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-Node.js 18+
-npm 9+ or yarn 1.22+
-Supabase account
-```
-
-### Installation
+## 🚀 Installation & Setup
 
 ```bash
 # Clone repository
@@ -122,120 +152,124 @@ npm install
 
 # Configure environment
 cp .env.example .env
-# Add your Supabase credentials
+
+# Database setup
+# Supabase migrations included in /supabase/migrations
 
 # Start development server
 npm run dev
 ```
 
-### Environment Configuration
-
+### Environment Variables
 ```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_SUPABASE_URL=your_project_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
 ```
 
 ---
 
-## 📦 Project Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── components/
-│   ├── auth/           # Authentication components
-│   ├── layout/         # Layout wrappers & navigation
-│   ├── ui/             # 40+ shadcn/ui components
+│   ├── auth/           # Authentication logic
+│   ├── layout/         # Layout components
+│   ├── ui/             # 40+ reusable components
 │   ├── analytics/      # Data visualization
-│   └── cart/           # Shopping cart logic
-├── pages/              # 17 route components
+│   └── cart/           # Shopping cart
+├── pages/              # 17 route pages
 ├── hooks/              # Custom React hooks
 ├── contexts/           # Global state providers
-├── integrations/       # Supabase client & types
+├── integrations/
+│   └── supabase/
+│       ├── client.ts   # Supabase client setup
+│       └── types.ts    # Auto-generated DB types
 └── utils/              # Helper functions
 ```
 
 ---
 
-## 🔒 Security Implementation
-
-- **Row-Level Security (RLS)** - Postgres-level access control
-- **JWT Authentication** - Stateless token validation
-- **HTTPS Enforcement** - Encrypted data transmission
-- **Input Sanitization** - XSS/CSRF prevention
-- **Environment Variables** - Secure credential management
-- **API Rate Limiting** - DDoS protection
-
----
-
-## ⚡ Performance Optimization
-
-- **Code Splitting** - Route-based lazy loading
-- **Tree Shaking** - Dead code elimination
-- **Caching Strategy** - Smart invalidation with TanStack Query
-- **Image Optimization** - WebP with lazy loading
-- **Bundle Analysis** - Sub-200KB initial load target
-
----
-
-## 🛠️ Available Scripts
+## 🛠️ Development Workflow
 
 ```bash
-npm run dev         # Development server (localhost:8080)
+npm run dev         # Start dev server (localhost:8080)
 npm run build       # Production build
-npm run preview     # Preview production build
-npm run lint        # ESLint validation
+npm run preview     # Preview build
+npm run lint        # Code quality check
 ```
 
 ---
 
-## 📊 Technical Highlights
+## 📈 Technical Highlights
 
-**Type Safety** - 100% TypeScript coverage with strict mode
+✅ **Type Safety** - 100% TypeScript with strict mode
 
-**Component Library** - 40+ reusable, accessible UI components
+✅ **Database Design** - Normalized schema with 8 tables
 
-**Real-Time Features** - WebSocket integration for live updates
+✅ **API Integration** - RESTful API with type-safe client
 
-**Form Validation** - Schema-based validation with Zod
+✅ **Real-Time** - WebSocket subscriptions for live data
 
-**State Management** - Context API + TanStack Query hybrid approach
+✅ **Authentication** - JWT with role-based authorization
 
-**Responsive Design** - Mobile-first with breakpoint utilities
+✅ **Form Handling** - React Hook Form + Zod validation
 
----
+✅ **State Management** - Context API + TanStack Query
 
-## 🚀 Deployment
+✅ **Responsive Design** - Mobile-first Tailwind CSS
 
-**Recommended Stack:**
-- Frontend: Vercel / Netlify
-- Backend: Supabase Cloud
-- CDN: Cloudflare
+✅ **Component Library** - 40+ accessible UI components
 
-```bash
-npm run build
-# Deploy dist/ folder to hosting platform
-```
+✅ **Code Quality** - ESLint configuration
 
 ---
 
-## 📝 License
+## 🎯 Full-Stack Capabilities Demonstrated
 
-MIT License - See LICENSE file for details
+### Frontend
+- [x] HTML5, CSS3, JavaScript (ES6+)
+- [x] React component architecture
+- [x] TypeScript strict mode
+- [x] Tailwind CSS responsive design
+- [x] Form validation & error handling
+
+### Backend
+- [x] Node.js/TypeScript development
+- [x] PostgreSQL database design
+- [x] RESTful API integration
+- [x] Authentication & authorization
+- [x] Real-time WebSocket implementation
+
+### Database
+- [x] Schema design & migrations
+- [x] Type-safe database operations
+- [x] Foreign key relationships
+- [x] Custom functions & triggers
+- [x] Row-level security policies
+
+### DevOps
+- [x] Environment configuration
+- [x] Build optimization
+- [x] Version control (Git)
+- [x] Deployment ready (Vercel/Netlify)
 
 ---
 
-## 📧 Contact
+## 📞 Contact
 
 **Developer:** santusdominus123@gmail.com
 
-**Repository:** [github.com/santusdominus123/waste-wise-wagons](https://github.com/santusdominus123/waste-wise-wagons)
+**GitHub:** [github.com/santusdominus123/waste-wise-wagons](https://github.com/santusdominus123/waste-wise-wagons)
+
+**LinkedIn:** [Add your LinkedIn profile]
 
 ---
 
 <div align="center">
 
-Built with React, TypeScript, and Supabase
+**Full-Stack Developer | React + TypeScript + Node.js + PostgreSQL**
 
-*Making the world cleaner, one pickup at a time* 🌍
+*4+ years equivalent experience in modern web development*
 
 </div>
