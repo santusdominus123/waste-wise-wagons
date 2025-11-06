@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\components\\auth/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\components\\auth/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\components\\layout/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\components\\layout/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\components\\auth/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\integrations\\supabase/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src\\pages/**)",
+      "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src/**)",
+      "Bash(rm:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
