@@ -22,7 +22,11 @@
       "Read(/C:\\Users\\hengh\\Desktop\\waste-wise-wagons-main\\src/**)",
       "Bash(rm:*)",
       "Bash(npm run build:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Waste Wise Wagons - Smart Waste Management Platform\n\nImplemented comprehensive waste management application with the following features:\n\nCore Features:\n- Multi-role authentication system supporting Users, Drivers, and Admins\n- Real-time pickup tracking with GPS integration\n- Advanced scheduling system for waste collection\n- Gamified rewards program with points-based marketplace\n- Interactive analytics dashboard with environmental impact metrics\n- Educational resources for waste segregation and recycling\n\nTechnical Implementation:\n- Frontend: React 18.3 with TypeScript for type safety\n- UI Framework: Custom design system using shadcn/ui and Tailwind CSS\n- Backend: Supabase for authentication, database, and real-time features\n- State Management: TanStack Query for server state\n- Form Handling: React Hook Form with Zod validation\n- Routing: React Router v6 with protected routes\n- Build Tool: Vite for fast development and optimized production builds\n\nArchitecture:\n- Component-based architecture with reusable UI components\n- Role-based access control (RBAC) implementation\n- Responsive design following mobile-first approach\n- Context API for global state (Auth, Language)\n- Custom hooks for business logic separation\n\nIncludes 17 fully functional pages and 40+ reusable UI components.\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
