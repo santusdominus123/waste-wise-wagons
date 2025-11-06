@@ -262,7 +262,6 @@ npm run lint        # Code quality check
 
 **GitHub:** [github.com/santusdominus123/waste-wise-wagons](https://github.com/santusdominus123/waste-wise-wagons)
 
-**LinkedIn:** [Add your LinkedIn profile]
 
 ---
 
